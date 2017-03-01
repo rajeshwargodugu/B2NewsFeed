@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_marginTop="@dimen/view_news_list_row_padding"
+        android:id="@+id/view_feed_list_row_image"
+        android:contentDescription="@string/news_row_image_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_news_list_first_row_image_height" />
+
+    <TextView
+        android:id="@+id/view_feed_list_row_title"
+        style="@style/TitleTextStyle" />
+
+    <TextView
+        android:id="@+id/view_feed_list_row_date"
+        style="@style/DateStyle" />
+
+</LinearLayout>

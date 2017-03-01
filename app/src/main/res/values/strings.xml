@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">B2 News </string>
+    <string name="news_row_image_description">"This is a news item image "</string>
+</resources>
