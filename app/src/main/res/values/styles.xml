@@ -24,7 +24,7 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@android:color/holo_blue_light</item>
         <item name="android:singleLine">false</item>
-        <item name="android:maxLines">3</item>
+
     </style>
 
     <style name="DateStyle">
